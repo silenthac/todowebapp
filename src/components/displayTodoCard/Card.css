@@ -1,0 +1,27 @@
+.btn1{
+    background-color: white;
+    color: white;  
+    padding: 5px 15px 5px 15px; 
+    border-radius : 7px 7px 7px 7px;
+    margin: 5px;
+}
+
+.input1{
+    padding: 5px 15px 5px 15px; 
+    border-radius: 7px 0px 0px 7px;
+    width: 500px;
+    border:none;
+    outline: none;
+    background-color: aquamarine;
+    
+
+
+}
+
+.card{
+    background-color: aquamarine;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 7px;
+    
+}
