@@ -4,6 +4,8 @@
     padding: 5px 15px 5px 15px; 
     border-radius : 7px 7px 7px 7px;
     margin: 5px;
+    margin-right: 14px;
+
 }
 
 .input1{
@@ -18,10 +20,27 @@
 
 }
 
+
+.input2{
+    text-decoration: line-through;
+    
+
+}
+
 .card{
     background-color: aquamarine;
     display: inline-block;
     border-radius: 7px;
     margin: 7px;
     
+}
+
+.card2{
+    background-color: red;
+}
+
+
+.check{
+    margin-left: 15px;
+   
 }
