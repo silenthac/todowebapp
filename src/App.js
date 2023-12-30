@@ -34,21 +34,23 @@ function App() {
   }
 
 
+  
+
+  useEffect(() => {
+
+    const todos = JSON.parse(localStorage.getItem("todos"));
+    if(todos&&todos.length>1)
+    {
+      setTodos(todos);
+    }
+  }, [])
+
   useEffect(() => {
     if(todos.length>0){
     localStorage.setItem("todos",JSON.stringify(todos));
     }
 
   }, [todos])
-
-  useEffect(() => {
-
-    const todos = JSON.parse(localStorage.getItem("todos"));
-    if(todos&&todos.length>0)
-    {
-      setTodos(todos);
-    }
-  }, [])
 
   
 
@@ -66,7 +68,9 @@ function App() {
       <InputCard/>
       
       {
+        
         todos.map((todo)=>(
+          
           <div key={todo.id}>
             <Card todo ={todo}/>
 
