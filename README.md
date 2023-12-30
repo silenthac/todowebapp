@@ -12,10 +12,10 @@ Hii, I build a Todo Web app Using React in which you can add what you want to ac
 
 
 
-AddTodo ->You can Todos what you want to achieve today.
-DeleteTodo->You can delete todo which u  have completed
-IscompletedTodo ->this will check whether the todo is completed or not
-edittodo->Sometimes we want to edit our todo , this web app will provide this functonality.
+1.AddTodo ->You can Todos what you want to achieve today.
+2.DeleteTodo->You can delete todo which u  have completed
+3.IscompletedTodo ->this will check whether the todo is completed or not
+4.edittodo->Sometimes we want to edit our todo , this web app will provide this functonality.
 
 
 
