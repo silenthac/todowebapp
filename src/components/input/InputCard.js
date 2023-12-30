@@ -10,7 +10,7 @@ InputCard = () => {
     const add = (e)=>{
         e.preventDefault()
         if(!todo) return
-        addTodo({id:Date.now(),todo:todo,iscompleted:false}) 
+        addTodo({id:Date.now(),todo:todo,isCompleted:false}) 
         settodo("");
     }
 
