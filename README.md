@@ -29,7 +29,7 @@ It will have two components
 
 --------------------------------------------------------------------------Context API---------------------------------------------------
 
-i am storing an array(all todos) of object(id:"some unique value i take Date.now()",todomsg: todo message,iscompleted :  its boolean whether my todo completed or not) and we have four methods (1.addTodo,2.deletetodo,3.edittodo,4.completedornot)
+i am storing an array(all todos) of object(id:"some unique value i take like Date.now()",todomsg: todo message,iscompleted :  its boolean whether my todo completed or not) and we have four methods (1.addTodo,2.deletetodo,3.edittodo,4.completedornot)
 
 
 
@@ -38,8 +38,3 @@ i am storing an array(all todos) of object(id:"some unique value i take Date.now
 I am storing all the todos in the localstorage if i refresh my webpage or i mistakenly close my tab, i will get my data back when i came back
 
 
-
-
-----------------------------------------------------------What I Learn-------------------------------------------------------
-Context API
-Local Storage
